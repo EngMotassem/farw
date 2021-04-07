@@ -20,7 +20,14 @@ Route::get('/test',function(){
     return('test page');
 });
 
+
+Route::get('/landing','LandingController@index');
+
 Route::get('ts','TeacherStatusController@getStatus');
 Route::get('addts','TeacherStatusController@saveStatus');
 Route::post('savets','TeacherStatusController@storeStatus')->name('Teacher.storeStatus');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
