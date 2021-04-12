@@ -23,8 +23,8 @@ class CreateSchoolsTable extends Migration
             $table->string('faniphone')->nullable();
             $table->string('edariname')->nullable();
             $table->string('edariphone')->nullable();
-            $table->string('tolabiname')->nullable();
-            $table->string('tolabiiphone')->nullable();
+            $table->string('tolabiname')->nullable()->default('null');
+            $table->string('tolabiiphone')->nullable()->default('null');
             $table->string('schooladdress');
             $table->string('schoolphone');
             $table->string('schoolstage')->default('المرحلة المتوسطة');

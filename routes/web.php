@@ -27,6 +27,8 @@ Route::get('ts','TeacherStatusController@getStatus');
 Route::get('addts','TeacherStatusController@saveStatus');
 Route::post('savets','TeacherStatusController@storeStatus')->name('Teacher.storeStatus');
 
+Route::post('basicData','HomeController@saveBasic')->name('Home.savebasic');
+
 
 Auth::routes();
 

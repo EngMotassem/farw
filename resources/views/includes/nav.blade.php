@@ -2,9 +2,7 @@
 
 
 
-<!-- NAVBAR -->
 
-<!-- NAVBAR -->
 <div class="container-fluid position-relative">
 
     <nav class="navbar navbar-expand-lg navbar-light justify-content-lg-between justify-content-md-inherit">
@@ -82,37 +80,6 @@
             <!-- Dropdowns -->
             <ul class="navbar-nav align-items-center">
 
-                <!--
-
-                    Dropdown Classes (should be added to primary .dropdown-menu only, dropdown childs are also affected)
-                        .dropdown-menu-dark 		- dark dropdown (desktop only, will be white on mobile)
-                        .dropdown-menu-hover 		- open on hover
-                        .dropdown-menu-clean 		- no background color on hover
-                        .dropdown-menu-invert 		- open dropdown in oposite direction (left|right, according to RTL|LTR)
-                        .dropdown-menu-uppercase 	- uppercase text (font-size is scalled down to 13px)
-                        .dropdown-click-ignore 		- keep dropdown open on inside click (useful on forms inside dropdown)
-
-                        Repositioning long dropdown childs (Example: Pages->Account)
-                            .dropdown-menu-up-n100 		- open up with top: -100px
-                            .dropdown-menu-up-n100 		- open up with top: -150px
-                            .dropdown-menu-up-n180 		- open up with top: -180px
-                            .dropdown-menu-up-n220 		- open up with top: -220px
-                            .dropdown-menu-up-n250 		- open up with top: -250px
-                            .dropdown-menu-up 			- open up without negative class
-
-
-                        Dropdown prefix icon (optional, if enabled in variables.scss)
-                            .prefix-link-icon .prefix-icon-dot 		- link prefix
-                            .prefix-link-icon .prefix-icon-line 	- link prefix
-                            .prefix-link-icon .prefix-icon-ico 		- link prefix
-                            .prefix-link-icon .prefix-icon-arrow 	- link prefix
-
-                        .nav-link.nav-link-caret-hide 	- no dropdown icon indicator on main link
-                        .nav-item.dropdown-mega 		- required ONLY on fullwidth mega menu
-
-                -->
-
-                <!-- Features -->
 
 
 
@@ -120,7 +87,7 @@
                 <li class="nav-item dropdown">
 
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="mainNavHome">
-                        Shortcuts
+                        <i class="fi fi-users"></i>المعلمون
                     </a>
 
                     <ul class="dropdown-menu dropdown-menu-clean dropdown-menu-hover" aria-labelledby="mainNavHome">
@@ -213,7 +180,100 @@
                 <li class="nav-item dropdown">
 
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="mainNavHome">
-                        Shortcuts
+                        <i class="fi fi-task-list"></i> الفصول
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-clean dropdown-menu-hover" aria-labelledby="mainNavHome">
+
+                        <li class="dropdown-item dropdown">
+                            <a class="dropdown-link" href="#!" data-toggle="dropdown">
+                                <i class="fi fi-cart-1"></i>
+                                Components
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-hover b-0 m-0 shadow-primary-xs">
+                                <li class="dropdown-item">
+                                    <a class="dropdown-link" href="components-alerts.html">
+                                        <i class="fi fi-plus"></i>
+                                        Alerts
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="dropdown-link" href="#">
+                                        <i class="fi fi-list-checked"></i>
+                                        Accordions
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="dropdown-link" href="#">
+                                        <i class="fi fi-box"></i>
+                                        Badges
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="dropdown-link" href="#">
+                                        <i class="fi fi-close"></i>
+                                        Buttons
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="dropdown-link" target="_blank" href="#">
+                                        <i class="fi fi-close"></i>
+                                        Documentation
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <i class="fi fi-user-plus"></i>
+                                Sign In/Up
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <i class="fi fi-users"></i>
+                                Account Settings
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <i class="fi fi-graph"></i>
+                                Admin Staff
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <i class="fi fi-task-list"></i>
+                                Page List
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <i class="fi fi-task-list"></i>
+                                Product Add
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <i class="fi fi-task-list"></i>
+                                Message Inbox
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" target="_blank" href="#">
+                                <i class="fi fi-task-list"></i>
+                                Documentation
+                            </a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="mainNavHome">
+                        <i class="fi fi-graph"></i>الغياب اليومي
                     </a>
 
                     <ul class="dropdown-menu dropdown-menu-clean dropdown-menu-hover" aria-labelledby="mainNavHome">
