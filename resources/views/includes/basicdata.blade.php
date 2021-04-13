@@ -5,7 +5,7 @@
         <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('اسم المدرسة') }}</label>
 
         <div class="col-md-6">
-            <input  type="text" class="form-control @error('schoolname') is-invalid @enderror" name="schoolname"  value="اسم المدرسة" required autocomplete="name" autofocus>
+            <input  type="text" class="form-control @error('schoolname') is-invalid @enderror" name="schoolname"  value="{{$schools}}"required autocomplete="name" autofocus>
 
             @error('schoolname')
             <span class="invalid-feedback" role="alert">
@@ -18,7 +18,7 @@
         <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('مدير المدرسة') }}</label>
 
         <div class="col-md-6">
-            <input type="text" class="form-control @error('mangername') is-invalid @enderror" name="mangername" VALUE="mangername" required autocomplete="name" autofocus>
+            <input type="text" class="form-control @error('mangername') is-invalid @enderror" name="mangername" value="{{$schools}}" required autocomplete="name" autofocus>
 
             @error('mangername')
             <span class="invalid-feedback" role="alert">
@@ -32,7 +32,7 @@
         <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('رقم هاتف المدير') }}</label>
 
         <div class="col-md-6">
-            <input  type="text" class="form-control @error('mangerphone') is-invalid @enderror" name="mangerphone"  value="mangerphone" required autocomplete="name" autofocus>
+            <input  type="text" class="form-control @error('mangerphone') is-invalid @enderror" name="mangerphone"  value="{{$schools}}" required autocomplete="name" autofocus>
 
             @error('mangerphone')
             <span class="invalid-feedback" role="alert">
@@ -46,7 +46,7 @@
         <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('المدير المساعد الاداري') }}</label>
 
         <div class="col-md-6">
-            <input type="text" class="form-control @error('edariname') is-invalid @enderror" name="edariname"   autocomplete="name" autofocus>
+            <input type="text" class="form-control @error('edariname') is-invalid @enderror" name="edariname"  value="{{$schools}}"  autocomplete="name" autofocus>
 
             @error('edariname')
             <span class="invalid-feedback" role="alert">
